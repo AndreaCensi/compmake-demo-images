@@ -1,0 +1,4 @@
+config multyvac_sync_up 101_ObjectCategories
+config multyvac_sync_down out
+
+config multyvac_layer numpy

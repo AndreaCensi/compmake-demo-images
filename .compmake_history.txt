@@ -1,0 +1,299 @@
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+parmake
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+parmake
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+make
+ls imread
+ls imread*
+make imread-94
+cloudmake imread-95
+help
+cloudmake imread-95
+parmake
+details instance_category-8
+parmake
+details failed
+parmake
+cloudmake read-yin_yang-53
+parmake
+make instance-watch*
+make *watch*
+details read-watch-9
+stats
+clean read-watch-95
+cloudmake read-watch-95
+details read-watch-95
+cloudmake read-watch-95
+details read-watch-95
+cloudmake read-watch-95
+details last
+cloudmake read-watch-95 echo=1
+details last
+config
+cloudmake read-watch-95 echo=1
+details read-watch-95
+cloudmake read-watch-95 echo=1
+cloudmake recurse=1 n=100
+cloudmake recurse=1 n=50
+ls root
+stats root
+cloudmake  n=50
+cloudmake  n=200
+cloudmake  n=100
+cloudmake  n=75
+cloudmake  n=10
+cloudmake  n=75
+cloudmake  n=100
+make
+clean
+make
+config echo 1
+cloudmake helicopter
+cloudmake read-helicopter-0
+clean
+cloudmake recurse=1
+config echo 1
+cloudmake recurse=1
+clean
+make
+make hedgehog
+make
+make hedgehog new_process=1
+graph
+graph *hedge*
+make *hedge*
+clean
+make
+make *hed*
+make hedgehog-*
+make
+clean; make; make *hed*
+config echo 1; clean; make; make *hed*
+config echo 1; clean; make;
+config echo 1; clean;
+delete oc*
+make
+make *he*
+make *hedg*
+clean
+config echo 1; clean; make; make *hed*
+make *hed*
+config echo 1; clean; make; make *hedge* recurse=1
+config echo 1; clean; make; make *hedge* recurse=1 new_process=1
+make
+ls hedgehog-average-53
+ls hedgehog-average-53 reason=1
+ls hedgehog-average-52 reason=1
+ls hedgehog-average-51 reason=1
+make *hed*
+exot
+parmake
+make *yin*
+config echo 1
+make *yin*
+make *yin* new_process=1
+make *yin*
+config echo 1
+make *yin*
+config echo 1
+make *yin*
+config echo 1; clean; make; make *hedge* recurse=1 new_process=1
+parmake *hedge*
+parmake *face*
+parmake recurse=1
+parmake cray*
+ls level1
+parmake garfield*
+parmake
+parmake n=8
+cloudmake rdb=1
+details list_categories
+clean
+make
+cloudmake cray*
+cloudmake cray* rdb=1 n=3
+ls failed
+cloudmake rdb=1
+cloudmake rdb=1 cray*
+details failed
+cloudmake rdb=1 cray*
+cloudmake rdb=1
+cloudmake rdb=1 windsor*
+cloudclean
+cloudmake rdb=1 windsor*
+make
+make cup
+cloudmake cup*
+cloudmake rdb=1 cup*
+cloudmake rdb=1 recurse=1 strawberry*
+cloudmake rdb=1 recurse=1
+cloudmake rdb=1
+parmake
+cloudmake rdb=1
+cloudmake rdb=1 process_one-22
+help
+cloud_sync_down
+help
+cloud-clean
+cloud_sync_down
+cloudclean
+config
+cloudmake rdb=1
+cloudmake rdb=1 skipsync=1
