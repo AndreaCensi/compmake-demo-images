@@ -1,19 +1,3 @@
-ls imread*
-make imread-94
-cloudmake imread-95
-make
-ls imread
-ls imread*
-make imread-94
-cloudmake imread-95
-help
-cloudmake imread-95
-make
-ls imread
-ls imread*
-make imread-94
-cloudmake imread-95
-make
 ls imread
 ls imread*
 make imread-94
@@ -297,3 +281,20 @@ cloudclean
 config
 cloudmake rdb=1
 cloudmake rdb=1 skipsync=1
+cloudclean
+clean
+cloudmake rdb=1
+cloud_sync_down
+cloudclean
+cloud_sync_down
+clean
+parmake
+clear
+ls aver*
+clear
+config
+clear
+cloudmake
+cloudclean
+cloudmake
+exit

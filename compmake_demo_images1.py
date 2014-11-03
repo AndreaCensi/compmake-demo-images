@@ -1,4 +1,4 @@
-from filesystem import list_categories, list_images
+from filesystem import list_images
 from images_read_write import rgb_write
 from instancing import reduce_list_as_tree
 from process import average, process_one
@@ -9,8 +9,9 @@ if __name__ == '__main__':
     # Get the full path to the dataset
     dataset = '101_ObjectCategories'
     output = 'out'
-     
-    path = os.path.join(dataset, 'Faces_easy')
+    
+    cat ='pigeon'
+    path = os.path.join(dataset, cat)
      
     from compmake import Context
     context = Context()
@@ -31,9 +32,8 @@ if __name__ == '__main__':
     
     # write the result
     context.comp(rgb_write, avg, 
-                 os.path.join(output, 'faces.jpg'))
+                 os.path.join(output, '%s.jpg' % cat))
 
-    
     import sys
     cmds = sys.argv[1:]
     if cmds:
