@@ -1,6 +1,3 @@
-ls imread
-ls imread*
-make imread-94
 cloudmake imread-95
 help
 cloudmake imread-95
@@ -297,4 +294,7 @@ clear
 cloudmake
 cloudclean
 cloudmake
+make chair
+parmake
+ls
 exit

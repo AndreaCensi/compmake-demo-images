@@ -3,7 +3,11 @@ import os
 
 def list_categories(dirname):
     """ Returns a dict category name -> dir """ 
-    entries = os.listdir(dirname)
+    entries = set(os.listdir(dirname))
+    remove = ['.DS_Store', 'BACKGROUND_Google']
+    for r in remove:
+        if r in entries:
+            entries.remove(r)
     return { entry: os.path.join(dirname, entry) 
             for entry in entries}
     
